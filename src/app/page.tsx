@@ -10,9 +10,12 @@ export default function Home() {
         Always listening. Always close.
       </p>
 
-      <button className="mt-8 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 hover:opacity-90 transition">
-        Talk to Neon
-      </button>
+      <a
+        href="/chat"
+        className="mt-8 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 hover:opacity-90 transition"
+      >
+        Sprich mit Neon
+      </a>
     </main>
   );
 }
